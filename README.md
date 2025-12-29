@@ -94,22 +94,6 @@ This reflects a common startup reality:
 > *The right model does not always expose the right internals.*
 
 ---
-
-## Repository Structure
-
-```text
-.
-├── app.py                 # Gradio UI
-├── sampler_test.py        # Verified trace generation
-├── optimizer.py           # DPO & GRPO loss logic
-├── model_interface.py     # Gemini abstraction
-├── config.py              # Hyperparameters
-├── requirements.txt
-├── video_demo.mp4         # Walkthrough and explanation
-└── README.md
-
----
-
 ## Video Walkthrough
 
 The repository includes a short video that covers:
@@ -129,3 +113,19 @@ The repository includes a short video that covers:
 - Add online preference collection
 - Introduce reward model distillation
 - Add monitoring for preference drift
+
+## Repository Structure
+
+```text
+.
+├── app.py                 # Gradio UI
+├── sampler_test.py        # Verified trace generation
+├── optimizer.py           # DPO & GRPO loss logic
+├── model_interface.py     # Gemini abstraction
+├── config.py              # Hyperparameters
+├── requirements.txt
+├── video_demo.mp4         # Walkthrough and explanation
+└── README.md
+
+
+
