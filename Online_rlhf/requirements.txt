@@ -1,0 +1,9 @@
+torch
+transformers
+gradio
+numpy
+scipy
+tqdm
+sentencepiece
+protobuf
+google-genai>=0.3.0
